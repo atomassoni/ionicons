@@ -57,7 +57,8 @@
     "test": "run-s test.spec",
     "test.spec": "jest",
     "test.e2e": "playwright test",
-    "test.e2e.install": "playwright install && playwright install-deps"
+    "test.e2e.install": "playwright install && playwright install-deps",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@stencil/core": "^4.35.3"
